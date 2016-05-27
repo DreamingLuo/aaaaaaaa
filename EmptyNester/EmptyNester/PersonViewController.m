@@ -106,10 +106,8 @@ static NSInteger bookId=1;
     nameString=[list[indexPath.row] objectForKey:@"name"];
     idString=[list[indexPath.row] objectForKey:@"id"];
     
-    [self presentViewController:_bookDetail animated:YES completion:^{
-       
-        NSLog(@"图书界面已经推出");
-    }];
+    [self.navigationController pushViewController:_bookDetail animated:YES];
+
 }
 #pragma mark - request
 -(void)request:(NSString*) arg
