@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AF72AFEB7C5FEB4CC374785F8CC822 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CA8B732F5BDFC0EAE884FCB2248340 /* RESideMenu.m */; };
+		3901E1F98A26888D5EAAA04235C58FC7 /* Pods-EmptyNester-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A043CF4A1031E7B6EF9D4A67C5D5889 /* Pods-EmptyNester-dummy.m */; };
+		4B53C95DA5EC2B84FF9D53EAEEA90941 /* RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 81578034A7B1E40B9EBA575F3999E8C6 /* RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBEBF986FAD993619C1BCECF44CF939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E38116E3E114EC5EEB8BDD8FC278AAD /* Foundation.framework */; };
+		54252AE6ED0391E9AEF3533CA0C09786 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7E9F16B2AA98734172037E463643C9 /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD9DAD23AB259311839E68D63B4852E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46D8E1725AFCDC92AC218208534CEB /* QuartzCore.framework */; };
+		D0927FED29292CD55A9043ADDF8BDEF1 /* RESideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6D08148AE98B6553EF9721FB4F3AC /* RESideMenu-dummy.m */; };
+		D13D78584F4918247C80154758FA5640 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C89622E224947A15030C562F990416B /* RECommonFunctions.m */; };
+		E6B187C9BC039F16657B490BCEF8ABA6 /* UIViewController+RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DC9B3732C2ADAE686612F8AAD8CD35 /* UIViewController+RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F357754084DE9BEEF0A4CDAB4E9BE289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E38116E3E114EC5EEB8BDD8FC278AAD /* Foundation.framework */; };
+		F937EB52C93A459FE8FD9454F04322B0 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD59457AF9B8E39F3893328C540408 /* UIViewController+RESideMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		134CE1EEE814AE80468D7F2E387D0178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83FB5971BF7FDD3B2DC8A9018FD4EE4F;
+			remoteInfo = RESideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AE3EE915D64C89BAE7D061D7A27B1E /* libRESideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRESideMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2609573F88818304F6F08148BEF0E743 /* libPods-EmptyNester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmptyNester.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE6D08148AE98B6553EF9721FB4F3AC /* RESideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RESideMenu-dummy.m"; sourceTree = "<group>"; };
+		4C89622E224947A15030C562F990416B /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = RESideMenu/RECommonFunctions.m; sourceTree = "<group>"; };
+		5E38116E3E114EC5EEB8BDD8FC278AAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B6FDB15172540B3DE8DE1CD8302F8A7 /* RESideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RESideMenu.xcconfig; sourceTree = "<group>"; };
+		7E79BF3CF2367FCBF0DDD9CA44278E1E /* Pods-EmptyNester-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmptyNester-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80CA8B732F5BDFC0EAE884FCB2248340 /* RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESideMenu.m; path = RESideMenu/RESideMenu.m; sourceTree = "<group>"; };
+		81578034A7B1E40B9EBA575F3999E8C6 /* RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESideMenu.h; path = RESideMenu/RESideMenu.h; sourceTree = "<group>"; };
+		8A043CF4A1031E7B6EF9D4A67C5D5889 /* Pods-EmptyNester-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmptyNester-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E4CECA67090170DF5325F29E9B9B828 /* Pods-EmptyNester-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyNester-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4DC9B3732C2ADAE686612F8AAD8CD35 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RESideMenu.h"; path = "RESideMenu/UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		BFC3A696F9CD37C8BAF1060F09E6BC46 /* Pods-EmptyNester-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmptyNester-frameworks.sh"; sourceTree = "<group>"; };
+		E1A1F6BFF46F1FC006E2DFB7A6CD9D5D /* Pods-EmptyNester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyNester.release.xcconfig"; sourceTree = "<group>"; };
+		ED7E9F16B2AA98734172037E463643C9 /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = RESideMenu/RECommonFunctions.h; sourceTree = "<group>"; };
+		F5E1195BD09BBF1EE5DD6AB149DE936E /* Pods-EmptyNester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyNester.debug.xcconfig"; sourceTree = "<group>"; };
+		F7A754B9269C00782706A436A7C8DD77 /* RESideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-prefix.pch"; sourceTree = "<group>"; };
+		F7FD59457AF9B8E39F3893328C540408 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RESideMenu.m"; path = "RESideMenu/UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		F9888BFE2D46CE076049990D9BD25C06 /* Pods-EmptyNester-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmptyNester-resources.sh"; sourceTree = "<group>"; };
+		FC46D8E1725AFCDC92AC218208534CEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E874934DBB7D27DAFD5C0D08156C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBEBF986FAD993619C1BCECF44CF939 /* Foundation.framework in Frameworks */,
+				BD9DAD23AB259311839E68D63B4852E4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41729388BD76C29605D4DDE5388FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357754084DE9BEEF0A4CDAB4E9BE289 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0525A0EB9A9840C5D1396127AE7FEAF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CAC5E507715BCF8A5904F14310E860E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82D22D92FAE7F41E7C15DC141043D76C /* RESideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5CAC5E507715BCF8A5904F14310E860E /* Pods */,
+				FCDADC6DA31978D91ADD864DA46AC8F8 /* Products */,
+				E1D4A4058CE9F58256C3B25D2A814BCD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82D22D92FAE7F41E7C15DC141043D76C /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E9F16B2AA98734172037E463643C9 /* RECommonFunctions.h */,
+				4C89622E224947A15030C562F990416B /* RECommonFunctions.m */,
+				81578034A7B1E40B9EBA575F3999E8C6 /* RESideMenu.h */,
+				80CA8B732F5BDFC0EAE884FCB2248340 /* RESideMenu.m */,
+				A4DC9B3732C2ADAE686612F8AAD8CD35 /* UIViewController+RESideMenu.h */,
+				F7FD59457AF9B8E39F3893328C540408 /* UIViewController+RESideMenu.m */,
+				C1729E123D8B5CDB85B13E99F84202B9 /* Support Files */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		B0525A0EB9A9840C5D1396127AE7FEAF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5E38116E3E114EC5EEB8BDD8FC278AAD /* Foundation.framework */,
+				FC46D8E1725AFCDC92AC218208534CEB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1729E123D8B5CDB85B13E99F84202B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B6FDB15172540B3DE8DE1CD8302F8A7 /* RESideMenu.xcconfig */,
+				2EE6D08148AE98B6553EF9721FB4F3AC /* RESideMenu-dummy.m */,
+				F7A754B9269C00782706A436A7C8DD77 /* RESideMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RESideMenu";
+			sourceTree = "<group>";
+		};
+		CE02F38262C34BC9686C3B302F210DBE /* Pods-EmptyNester */ = {
+			isa = PBXGroup;
+			children = (
+				7E79BF3CF2367FCBF0DDD9CA44278E1E /* Pods-EmptyNester-acknowledgements.markdown */,
+				9E4CECA67090170DF5325F29E9B9B828 /* Pods-EmptyNester-acknowledgements.plist */,
+				8A043CF4A1031E7B6EF9D4A67C5D5889 /* Pods-EmptyNester-dummy.m */,
+				BFC3A696F9CD37C8BAF1060F09E6BC46 /* Pods-EmptyNester-frameworks.sh */,
+				F9888BFE2D46CE076049990D9BD25C06 /* Pods-EmptyNester-resources.sh */,
+				F5E1195BD09BBF1EE5DD6AB149DE936E /* Pods-EmptyNester.debug.xcconfig */,
+				E1A1F6BFF46F1FC006E2DFB7A6CD9D5D /* Pods-EmptyNester.release.xcconfig */,
+			);
+			name = "Pods-EmptyNester";
+			path = "Target Support Files/Pods-EmptyNester";
+			sourceTree = "<group>";
+		};
+		E1D4A4058CE9F58256C3B25D2A814BCD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE02F38262C34BC9686C3B302F210DBE /* Pods-EmptyNester */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FCDADC6DA31978D91ADD864DA46AC8F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2609573F88818304F6F08148BEF0E743 /* libPods-EmptyNester.a */,
+				04AE3EE915D64C89BAE7D061D7A27B1E /* libRESideMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		405DC52F64D2D1EAAC0A6006EC3F7A73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54252AE6ED0391E9AEF3533CA0C09786 /* RECommonFunctions.h in Headers */,
+				4B53C95DA5EC2B84FF9D53EAEEA90941 /* RESideMenu.h in Headers */,
+				E6B187C9BC039F16657B490BCEF8ABA6 /* UIViewController+RESideMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83FB5971BF7FDD3B2DC8A9018FD4EE4F /* RESideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CF07C94D40DAB2B2E3FFE6E89A3358 /* Build configuration list for PBXNativeTarget "RESideMenu" */;
+			buildPhases = (
+				32B6C04EABF6D4A0F7E7CB160C7949AD /* Sources */,
+				77E874934DBB7D27DAFD5C0D08156C76 /* Frameworks */,
+				405DC52F64D2D1EAAC0A6006EC3F7A73 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESideMenu;
+			productName = RESideMenu;
+			productReference = 04AE3EE915D64C89BAE7D061D7A27B1E /* libRESideMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF2B733525E721F7D9A1C0B8EDDD3CBA /* Pods-EmptyNester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891B8A3EF6D08D1D5E69453062942EA5 /* Build configuration list for PBXNativeTarget "Pods-EmptyNester" */;
+			buildPhases = (
+				5F7540FDF96DDA1AF1DFDDE78BEEB8D9 /* Sources */,
+				AC41729388BD76C29605D4DDE5388FC1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC44AA5C66E06A843647770BCA61E8E /* PBXTargetDependency */,
+			);
+			name = "Pods-EmptyNester";
+			productName = "Pods-EmptyNester";
+			productReference = 2609573F88818304F6F08148BEF0E743 /* libPods-EmptyNester.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FCDADC6DA31978D91ADD864DA46AC8F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2B733525E721F7D9A1C0B8EDDD3CBA /* Pods-EmptyNester */,
+				83FB5971BF7FDD3B2DC8A9018FD4EE4F /* RESideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B6C04EABF6D4A0F7E7CB160C7949AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13D78584F4918247C80154758FA5640 /* RECommonFunctions.m in Sources */,
+				D0927FED29292CD55A9043ADDF8BDEF1 /* RESideMenu-dummy.m in Sources */,
+				12AF72AFEB7C5FEB4CC374785F8CC822 /* RESideMenu.m in Sources */,
+				F937EB52C93A459FE8FD9454F04322B0 /* UIViewController+RESideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7540FDF96DDA1AF1DFDDE78BEEB8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3901E1F98A26888D5EAAA04235C58FC7 /* Pods-EmptyNester-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AC44AA5C66E06A843647770BCA61E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RESideMenu;
+			target = 83FB5971BF7FDD3B2DC8A9018FD4EE4F /* RESideMenu */;
+			targetProxy = 134CE1EEE814AE80468D7F2E387D0178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BEE15031EDE7F633D38859E4DA557C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6FDB15172540B3DE8DE1CD8302F8A7 /* RESideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3979CDA8F84931A636CBE6E6C82E12BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E1195BD09BBF1EE5DD6AB149DE936E /* Pods-EmptyNester.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		420506C455D59A08FACE9F60DB1CAF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A1F6BFF46F1FC006E2DFB7A6CD9D5D /* Pods-EmptyNester.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		86D4B7EAFC38175DD9DEF33AEF9249F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6FDB15172540B3DE8DE1CD8302F8A7 /* RESideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C6544A1F1139551CE6C6C9B43404CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */,
+				C6544A1F1139551CE6C6C9B43404CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891B8A3EF6D08D1D5E69453062942EA5 /* Build configuration list for PBXNativeTarget "Pods-EmptyNester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3979CDA8F84931A636CBE6E6C82E12BA /* Debug */,
+				420506C455D59A08FACE9F60DB1CAF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CF07C94D40DAB2B2E3FFE6E89A3358 /* Build configuration list for PBXNativeTarget "RESideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D4B7EAFC38175DD9DEF33AEF9249F9 /* Debug */,
+				1BEE15031EDE7F633D38859E4DA557C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
